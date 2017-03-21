@@ -1,10 +1,20 @@
 package client.Pages
 import japgolly.scalajs.react.vdom.prefix_<^.{<, _}
+
 /**
   * Created by Luna on 21/03/2017.
   */
-object Login {
+object Register {
+
   lazy val component = <.div(
+    <.div(
+      <.label("First Name"),
+      <.input(^.tpe := "text", ^.placeholder:="First Name")
+    ),
+    <.div(
+      <.label("Last Name"),
+      <.input(^.tpe := "text", ^.placeholder:="Last Name")
+    ),
     <.div(
       <.label("Username"),
       <.input(^.tpe := "text", ^.placeholder:="Username")
@@ -13,7 +23,6 @@ object Login {
       <.label("Password"),
       <.input(^.tpe := "text", ^.placeholder:="Password")
     ),
-    <.div(<.button("Sign In"))
+    <.div(<.button("Register"))
   ).render
-
 }
