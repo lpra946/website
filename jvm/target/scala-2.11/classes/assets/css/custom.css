@@ -1,0 +1,46 @@
+/* Add here all your css styles (customizations) */
+
+
+
+.img {
+    background: url(../img/image.jpg) no-repeat center;
+    background-size: cover;
+    height: 1024px;
+
+}
+.home-sub-heading {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 3px 0px;
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-name: fadeInUp;
+}
+
+.home-heading {
+font-size: 60px;
+    line-height: 63px;
+    font-weight: 600;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 7px 0px;
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-name: fadeInUp;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 400;
+    visibility: visible;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-name: fadeInUp;
+}
